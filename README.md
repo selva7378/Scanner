@@ -1,4 +1,4 @@
-# Document Scanner App using ML Kit and Dynamic Navigation
+# Document Scanner App using ML Kit
 
 This Android application provides a seamless document scanning experience using Google's ML Kit Document Scanning API. The app allows users to scan documents using their device's camera and saves the scanned results as PDFs, making it ideal for digitizing physical documents. The core functionality includes:
 
