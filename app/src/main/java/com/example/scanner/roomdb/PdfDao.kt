@@ -4,6 +4,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface PdfDao {
@@ -11,5 +12,5 @@ interface PdfDao {
     suspend fun insertPdf(pdfEntity: Pdf)
 
     @Query("SELECT * FROM pdf_table")
-    suspend fun getAllPdfs(): List<Pdf>
+    fun getAllPdfs(): Flow<List<Pdf>>
 }

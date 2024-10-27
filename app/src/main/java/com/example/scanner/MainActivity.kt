@@ -41,9 +41,11 @@ import com.google.mlkit.vision.documentscanner.GmsDocumentScanningResult
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import com.example.scanner.navgraph.DocScanner
+import dagger.hilt.android.AndroidEntryPoint
 import java.io.File
 import java.io.FileOutputStream
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -7,5 +7,7 @@ import androidx.room.PrimaryKey
 data class Pdf(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
     val name: String,          // PDF name for display
-    val pdfUri: String         // URI of the scanned PDF
+    val pdfUri: String,        // URI of the scanned PDF
+//    val pdfPages: Int,
+//    val imageUri: List<String>
 )
