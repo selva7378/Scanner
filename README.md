@@ -12,3 +12,10 @@ This Android application provides a seamless document scanning experience using 
 
 This project demonstrates the use of dynamic navigation patterns and Google's ML Kit for creating a practical document scanner app that stores, previews, and displays PDF documents efficiently.
 
+# Screen Shots :
+
+- Home screen with bottom navigation :
+- Mlkit DocScanner Api's Screen :
+- Scanned Pdf Listing Screen :
+- Pdf Detail Screen:
+- Adaptive layout and dynamic navigation of Pdf Listing and Detail Screen :
