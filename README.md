@@ -14,8 +14,16 @@ This project demonstrates the use of dynamic navigation patterns and Google's ML
 
 # Screen Shots :
 
-- Home screen with bottom navigation :
-- Mlkit DocScanner Api's Screen :
+## Mobile potrait :
 - Scanned Pdf Listing Screen :
+  ![PdfListScreen.jpg](./PdfScannerScr/PdfListScreen.jpg)
 - Pdf Detail Screen:
-- Adaptive layout and dynamic navigation of Pdf Listing and Detail Screen :
+  ![PdfDetailScreen.jpg](./PdfScannerScr/PdfDetailScreen.jpg)
+- Optical Character Recognition (OCR) Screen:
+  ![OcrScreen.jpg](./PdfScannerScr/OcrScreen.jpg)
+- Page Scanning Screen :
+  ![ScannerScreen.jpg](./PdfScannerScr/ScannerScreen.jpg)
+- Pdf Editing Screen :
+  ![PdfEditingScreen.jpg](./PdfScannerScr/PdfEditingScreen.jpg)
+
+## Mobile landscape :
