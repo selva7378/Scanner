@@ -50,6 +50,7 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.core.net.toUri
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 
@@ -84,7 +85,7 @@ val LocalPdfScannerViewModel = compositionLocalOf<PdfScannerViewModel> {
 fun PdfScannerHomeScreen(
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
-    scannerViewModel: PdfScannerViewModel = viewModel() // Inject ViewModel with Hilt
+    scannerViewModel: PdfScannerViewModel = hiltViewModel() // Inject ViewModel with Hilt
 ) {
     val context = LocalContext.current
     val options = GmsDocumentScannerOptions.Builder()
