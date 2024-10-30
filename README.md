@@ -36,3 +36,6 @@ This project demonstrates the use of dynamic navigation patterns and Google's ML
   ![PdfEditingScreen.jpg](./PdfScannerScr/PdfEditingScreen.jpg)
 
 ## Mobile landscape :
+- Adaptive Layout And Dynamic Navigation :
+  
+  ![AL&DN.jpg](./PdfScannerScr/AL&DN.jpg)
